@@ -1,0 +1,897 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 40px;
+}
+
+/* Logo styles */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 60px; /* Left padding for the logo */
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center; /* Centers the navigation */
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px; /* Space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2B373D;
+    font-size: 16.34px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Button styles */
+.btn1 {
+  
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.a1 {
+    margin-left: 100px;
+    position: relative;  
+    color: red;        
+    font-size: 14px;    
+    text-decoration: none; 
+}
+
+/* Small circle below the link */
+.a1::after {
+    content: '';         
+    position: absolute; 
+    bottom: -20px;       
+    left: 50%;          
+    transform: translateX(-50%);  
+    width: 10px;         
+    height: 10px;        
+    background-color: red; 
+    border-radius: 50%;  
+}
+
+/* Burger Menu Icon */
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+/*hero section*/
+.herosection{
+    height: auto;
+    background-color:  #F5A2AC1C;
+    padding: 50px 20px;
+    
+}
+.herocontenore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color:  #F5A2AC1C;
+
+}
+.heroleftside{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 578px;
+}
+.herologo{
+    font-size: 26px;
+}
+.herotitle{
+    margin-top: 10px;
+    font-size: 32px;
+}
+.hero5{
+    margin-top: 10px;
+    color: #091C24;
+}
+.herop{
+    margin-top: 10px;
+    max-width: 500px;
+    line-height: 1.5;
+    
+}
+.herobutton{
+    margin-top: 25px;
+}
+/*image*/
+.heroimg{
+    width: 454.49px;
+    height: 509.96px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+/*end of*/
+
+/* Second section */
+.second {
+    margin-top: 50px;
+}
+
+/* Flex container */
+.secondcontenor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left side (image) */
+.secondleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* Right side (text content) */
+.rights {
+    margin-left: 100px;
+}
+
+/* Heading */
+.seh3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #2C272E;
+}
+
+/* Paragraph 1 */
+.secondp {
+    width: 500px;
+    line-height: 1.5;
+}
+
+/* Paragraph 2 */
+.secondp1 {
+    margin-top: 20px;
+    width: 500px;
+    line-height: 1.5;
+}
+.leftimg{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/*end of*/
+/*third section*/
+.third{
+    margin-top: 100px;
+    background-color:  #F5A2AC1C;
+}
+.thirdimg{
+    width: 1000px;
+    margin-left: 15%;
+}
+/*endof*/
+
+/*fourh*/
+.f4contenor{
+    display: flex;
+    justify-content: center;
+}
+.fourt{
+    margin-top: 100px;
+    height: 574px;
+    background-color: #FDF1EC;
+}
+.leftf{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.fh1{
+    font-size: 48px;
+    font-weight: 600px;
+    color: #222D39;
+}
+.fp{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8492A7;
+}
+.fbtn{
+    margin-top: 15px;
+    width: 215px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F5A2AC;
+}
+.fa{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fmiddle{
+    margin-top: 70px;
+}
+.fright{
+    display: flex;
+    
+}
+.frimg{
+    margin-right: -200px;
+}
+.frimg2{
+    margin-right: -50px;
+}
+/*endof*/
+
+/*#########################################fifth*/
+.fifth{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.fivcontenor{
+    padding: 20px;
+}
+.fip{
+    font-size: 15px;
+    font-weight: 600;
+    color: #C37B84;
+}
+.topf{
+    display: flex;
+    justify-content: space-between;
+}
+.fih1{
+    margin-top: 10px;
+    font-size:40px ;
+    font-weight: 700;
+    color: #222D39;
+}
+
+.buttom {
+    display: flex;
+    
+    
+    gap: 15px;
+}
+
+.card {
+    width: 308px;
+    height: 384px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.fiim {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.fict {
+    font-size: 24px;
+    font-weight: 500;
+    color: #222D39;
+    margin-bottom: 10px;
+}
+
+.ficard {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8492A7;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.fia {
+    font-size: 18px;
+    color: #222D39;
+    font-weight: 600;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.fa{
+    margin-left: 10px;
+}
+.card:nth-child(1) {
+    top: 100px; 
+}
+
+.card:nth-child(2) {
+    top: 50px; 
+}
+
+.card:nth-child(3) {
+    top: 100px; 
+}
+
+.card:nth-child(4) {
+    top: 50px; 
+}
+/*endof*/
+/*#############################################six*/
+.six{
+    margin-top: 200px;
+    background-image: url("Asset/images/Union.png");
+    position: relative;
+    height: 795px;
+}
+.sixcontenor{
+   padding-top: 150px;
+   align-items: center;
+   
+}
+.subcontenors{
+    margin-top: 0px;
+}
+.top{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+.tops,.sixh{
+    text-align: center;
+}
+.sixh{
+    font-size: 54px;
+    font-weight: 700;
+    color: #000000;
+}
+.sixstep{
+    display: flex;
+    margin: auto;
+}
+.sixde{
+    display: flex;
+    
+}
+.six1{
+    text-align: center;
+    width: 179px;
+    height: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 18%;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+/*end of*/
+
+/*#############################seven*/
+.seven{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+   padding: 20px;
+}
+.sevencontenor{
+    padding: 20px;
+    
+
+}
+.sh1{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.line1{
+    margin-top: 60px;
+    width: 530px;
+}
+.line2{
+    margin-left: 48px;
+}
+.line3{
+    width: 530px;
+}
+.ss{
+    color: red;
+}
+.ssign,.ssign2{
+    display: flex;
+}
+.subs{
+    display: block;
+    
+}
+.stsin{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+}
+.sdes{
+    font-size: px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 30px;
+}
+.subs2{
+    margin-left: 60px;
+}
+/*end of*/
+footer {
+    background-image: url("Asset/images/Union.png");
+    margin-top: 100px;
+    padding: 40px 20px;
+    color:black;
+  
+}
+
+.footercontenor {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.fofirst {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.flogo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.conf i {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.linkf, .legalef, .joinf {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.headf {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.linkfo {
+    display: block;
+    margin-top: 10px;
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.linkfo:hover {
+    text-decoration: underline;
+}
+
+.joinf {
+    text-align: left;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons .icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    color: black;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color:black;
+}
+
+@media (max-width: 480px) {
+    .seh3 {
+        font-size: 24px;
+    }
+
+    .secondp, 
+    .secondp1 {
+        font-size: 14px;
+        line-height: 1.4;
+        width: 100%; 
+    }
+    /*third*/
+    .thirdimg {
+        width: 100%; 
+        margin-left: 0; 
+    }
+    /*fourht*/
+    .fourt{
+        margin-top: 100px;
+        height: 1174px;
+        background-color: #FDF1EC;
+    }
+    .fh1 {
+        font-size: 36px;
+    }
+    
+    .fp {
+        font-size: 16px;
+    }
+    
+    .fbtn {
+        margin-bottom: 20px;
+        width: 180px;
+        height: 50px;
+    }
+
+    .fmiddle {
+       display: none;
+    }
+
+    .frimg, .frimg2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    .frimg2{
+        margin-top: -50px;
+    }
+    /*six*/
+
+    /*seven*/
+    .sh1 {
+        font-size: 24px;
+    }
+
+    .line1, .line3 {
+        width: 100%;
+    }
+
+    .fmiddle img, .imsevenim {
+        width: 90%;
+    }
+
+    .stsin {
+        font-size: 20px;
+    }
+
+    .sdes {
+        font-size: 14px;
+    }
+    .sins{
+        width: 150px;
+        height: 50px;
+    }
+    /*footer*/
+    .flogo {
+        font-size: 28px;
+    }
+
+    .headf {
+        font-size: 16px;
+    }
+
+    .linkfo {
+        font-size: 12px;
+    }
+
+    .footer-copy {
+        font-size: 12px;
+    }
+
+    .social-icons .icon {
+        font-size: 28px;
+    }
+    .sixde{
+        font-size: inherit;
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+    }
+    .sixstep{
+        display: flex;
+        margin-left: -60px;
+    }
+    .six{
+        max-width: 500px;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        margin: auto;
+    }
+    .fbtn{
+        margin-top: 120px;
+        margin-left: -35px;
+    }
+
+}
+
+
+/* Responsive styles for burger */
+@media (max-width: 898px) {
+    /* Hide the navigation links and show burger on small screens */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        padding: 30px;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+    .a1::after {
+        content: '';         
+        position: absolute; 
+        bottom: -20px;       
+        left: 50%;          
+        transform: translateX(-50%);  
+        width: 10px;         
+        height: 10px;        
+        background-color: red; 
+        border-radius: 50%;  
+        display: none;
+
+    }
+    
+   
+    .a1{
+        margin: auto;
+    }
+        .burger {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Burger icon animation when active */
+    .burger.toggle .line11 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .burger.toggle .line22 {
+        opacity: 0;
+    }
+
+    .burger.toggle .line33 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    /*hero section*/
+    .herosection {
+        height: auto; 
+        background-color: #F5A2AC1C;
+        padding: 50px 20px; 
+    }
+    .herocontenore {
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .heroleftside {
+        margin-top: 50px; 
+        margin-left: 0; 
+        width: 100%; 
+        max-width: 600px; 
+        text-align: center; 
+    }
+    .heroimg {
+        width: 100%; 
+        height: auto; 
+        margin-top: 50px; 
+        margin-left: 0; 
+    }
+    .herop{
+        max-width: 430px;
+
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+    }
+    /*second section*/
+    .secondcontenor {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+   
+    .secondleft {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .rights {
+        display: grid;
+        place-items: center;
+        margin: auto;
+    }
+
+    .seh3 {
+        font-size: 30px;
+    }
+
+    .secondp, 
+    .secondp1 {
+        width: 90%; 
+    }
+    /*third section*/
+    .thirdimg {
+        width: 90%; 
+        margin-left: 5%; 
+    }
+
+    /*fourth*/
+    .fourt{
+        margin-top: 100px;
+        height: 1174px;
+        background-color: #FDF1EC;
+    }
+    .f4contenor {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .leftf {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .fmiddle {
+        display: none;
+    }
+
+    .fright {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frimg, .frimg2 {
+        margin: 20px 0;
+    }
+    .frimg2{
+        margin-top: -50px;
+    }
+   /*fifth*/
+    .buttom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .card:nth-child(1),
+    .card:nth-child(2),
+    .card:nth-child(3),
+    .card:nth-child(4) {
+        top: 0; 
+    }
+    /*six*/
+    .sixh {
+        font-size: 36px; /* Further reduce heading size */
+    }
+
+    .six1 {
+        width: 130px; 
+        font-size: 12px; 
+        height: 90px;
+        margin-left: 8%;
+    }
+
+    .sixstep {
+        width: 70%; 
+        margin-left: 100px;
+    }
+    
+    /*seven*/
+    .sh1 {
+        font-size: 28px;
+    }
+
+    .line1, .line3 {
+        width: 100%;
+    }
+
+    .stsin {
+        font-size: 24px;
+    }
+
+    .sdes {
+        font-size: 16px;
+    }
+
+    .subs, .subs2 {
+        margin-top: 10px;
+    }
+
+    .fmiddle img, .imsevenim {
+        width: 70%;
+    }
+    .sins{
+        width: 150px;
+        height: 50px;
+    }
+    /*footer*/
+    .footercontenor {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fofirst, .linkf, .legalef, .joinf {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .social-icons .icon {
+        margin-right: 10px;
+    }
+
+    .footer-copy {
+        margin-top: 20px;
+    }
+}
+
